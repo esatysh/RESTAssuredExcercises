@@ -28,7 +28,7 @@ public class PostExample {
 	
 	
 	//build the request body
-	request.body(json.toString());
+	System.out.println("Body is: "+request.body(json.toString()));
 	
 	
 	//send request and handle the response
